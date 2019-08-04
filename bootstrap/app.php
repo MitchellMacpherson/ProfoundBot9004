@@ -1,11 +1,6 @@
 <?php
 declare(strict_types=1);
 
-use App\Http\Middleware\Bootstrap\DispatcherMiddleware;
-use WoohooLabs\Harmony\Harmony;
-use WoohooLabs\Harmony\Middleware\HttpHandlerRunnerMiddleware;
-use Zend\HttpHandlerRunner\Emitter\SapiEmitter;
-
 require_once __DIR__ . '/../vendor/autoload.php';
 require_once __DIR__ . '/helpers.php';
 
